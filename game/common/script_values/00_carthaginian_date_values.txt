@@ -1,5 +1,12 @@
-acc_year_test = {
-	value = 450
-	add = 61
+acc_year_if_probe = {
+	value = 511
+
+	if = {
+		limit = {
+			current_date > 449.12.31
+		}
+		add = 100
+	}
+
 	round = yes
 }
