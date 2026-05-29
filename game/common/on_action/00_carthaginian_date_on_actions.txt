@@ -1,0 +1,13 @@
+acc_year_variable_init_test = {
+	trigger = {
+		is_ai = no
+	}
+
+	effect = {
+		set_variable = {
+			name = acc_year_dynamic
+			value = 777
+			days = -1
+		}
+	}
+}
