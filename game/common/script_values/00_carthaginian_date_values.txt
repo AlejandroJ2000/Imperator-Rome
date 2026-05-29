@@ -1,46 +1,12 @@
-acc_year_dynamic = {
-	value = 511
-
+acc_year_display = {
 	if = {
 		limit = {
-			current_date > 450.12.31
+			has_variable = acc_year
 		}
-		add = 1
-	}
-
-	if = {
-		limit = {
-			current_date > 451.12.31
-		}
-		add = 1
-	}
-
-	if = {
-		limit = {
-			current_date > 452.12.31
-		}
-		add = 1
-	}
-
-	if = {
-		limit = {
-			current_date > 453.12.31
-		}
-		add = 1
-	}
-
-	round = yes
-}
-
-acc_year_variable_display_test = {
-	if = {
-		limit = {
-			has_variable = acc_year_dynamic
-		}
-		value = var:acc_year_dynamic
+		value = var:acc_year
 	}
 	else = {
-		value = 999
+		value = 511
 	}
 
 	round = yes

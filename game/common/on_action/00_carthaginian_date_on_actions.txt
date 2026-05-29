@@ -1,13 +1,5 @@
-acc_year_variable_init_test = {
-	trigger = {
-		is_ai = no
-	}
-
+carthaginian_date_yearly_pulse = {
 	effect = {
-		set_variable = {
-			name = acc_year_dynamic
-			value = 777
-			days = -1
-		}
+		carthaginian_date_yearly_effect = yes
 	}
 }

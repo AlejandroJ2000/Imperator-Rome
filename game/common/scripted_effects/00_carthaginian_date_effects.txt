@@ -1,0 +1,43 @@
+carthaginian_date_startup_effect = {
+	if = {
+		limit = {
+			is_ai = no
+		}
+		set_variable = {
+			name = acc_year
+			value = 511
+			days = -1
+		}
+	}
+}
+
+carthaginian_date_yearly_effect = {
+	if = {
+		limit = {
+			is_ai = no
+			NOT = { has_variable = acc_year }
+		}
+		set_variable = {
+			name = acc_year
+			value = 511
+			days = -1
+		}
+	}
+	
+	if = {
+		limit = {
+			is_ai = no
+			has_variable = acc_year
+			current_date > 450.12.31
+			NOT = { has_variable = acc_yearly_lock }
+		}
+		change_variable = {
+			name = acc_year
+			add = 1
+		}
+		set_variable = {
+			name = acc_year_yearly_lock
+			days = 300
+		}
+	}
+}
