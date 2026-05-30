@@ -39,7 +39,8 @@
  DATE:0 "Date: $DATE$"
  UNTIL_DATE:0 "until $DATE$"
  CURRENT_DATE:0 "[GetChristianDateString]"
- CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date is shown in the Gregorian calendar for now. This is a temporary step toward a Carthaginian foundation-era display..#!"
+ CARTHAGINIAN_CURRENT_DATE_TEST:0 "[GetChristianDateString]"
+ CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date is shown according to the Carthaginian foundation era: #Y ACC#!, Ab Cartagine Condita.\n\nThe traditional foundation date of Carthage is 814 BCE. The year 511 ACC corresponds to 304 BCE in the modern Gregorian calendar.\n\nGregorian date: #Y [GetChristianDateString]#!\n\nThe internal game chronology is unchanged."
  DATE_TODAY:0 "This is Today"
  DATE_YEARS_MONTHS_DAYS_PAST:0 "This was $YEARS$ years $MONTHS$ months $DAYS$ days ago."
  DATE_YEARS_MONTHS_DAYS_FUTURE:0 "This is in $YEARS$ years $MONTHS$ months $DAYS$ days."
@@ -478,7 +479,7 @@
  SKILL_AVERAGE:0 "Average"
  SKILL_GOOD:0 "Good"
  SKILL_EXCELLENT:0 "Excellent"
- THE_WORLD:1 "[GetChristianDateString]"
+ THE_WORLD:1 "511 ACC [GetChristianDateString]"
  THE_WORLD_CATCHING_UP:0 "Catching up to host ([GetChristianDateString])"
  THE_WORLD_TOOLTIP:1 "#T Current Date#!\nACC stands for Ab Cartagine Condita, or 'From the Founding of the Carthage'. This mods aims to use Carthage's traditional foundation date, 814 BCE, as the base year so that to not use the calendar of Carthage's bitter enemy, the romans. The year ACC 511, therefore, corresponds to 304 BC in the modern Gregorian calendar. The internal game chronology is unchanged."
  #

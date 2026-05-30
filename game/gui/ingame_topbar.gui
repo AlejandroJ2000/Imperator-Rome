@@ -1952,7 +1952,7 @@ vbox = {
 									using = tooltip_se
 									blockoverride "Center_text"
 									{
-										text = "[GuiScope.SetRoot(Player.MakeScope).ScriptValue('acc_year_display')|0] ACC"
+										text = "[GuiScope.SetRoot(Player.MakeScope).ScriptValue('acc_year_display')|0]"
 										using = Teal_FontColor
 									}
 									
@@ -1979,7 +1979,7 @@ vbox = {
 									using = tooltip_se
 									blockoverride "Center_text"
 									{
-										text = "[GuiScope.SetRoot(Player.MakeScope).ScriptValue('acc_year_display')|0] ACC"
+										text = "[GuiScope.SetRoot(Player.MakeScope).ScriptValue('acc_year_display')|0]"
 									}
 									
 									blockoverride "On_click"

@@ -1,4 +1,4 @@
 ﻿l_english:
  DATE_AD_YEAR:0 "$YEAR$ CE"
- DATE_BC_YEAR:0 "$YEAR$ ACC"
+ DATE_BC_YEAR:0 "$YEAR$ BCE"
  
