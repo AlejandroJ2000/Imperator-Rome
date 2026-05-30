@@ -479,7 +479,7 @@
  SKILL_AVERAGE:0 "Average"
  SKILL_GOOD:0 "Good"
  SKILL_EXCELLENT:0 "Excellent"
- THE_WORLD:1 "511 ACC [GetChristianDateString]"
+ THE_WORLD:1 "511 ACC"
  THE_WORLD_CATCHING_UP:0 "Catching up to host ([GetChristianDateString])"
  THE_WORLD_TOOLTIP:1 "#T Current Date#!\nACC stands for Ab Cartagine Condita, or 'From the Founding of the Carthage'. This mods aims to use Carthage's traditional foundation date, 814 BCE, as the base year so that to not use the calendar of Carthage's bitter enemy, the romans. The year ACC 511, therefore, corresponds to 304 BC in the modern Gregorian calendar. The internal game chronology is unchanged."
  #
