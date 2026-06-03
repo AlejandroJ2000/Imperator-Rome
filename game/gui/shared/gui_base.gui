@@ -5360,7 +5360,7 @@ types Base_GUI_Types
 								elide = right
 								fontsize_min = 12
 							}
-							tooltip = "#T ACC Birth Test#!\nName: [Character.GetName]\nAge: [Character.GetAge|0]\nACC birth fixed: [Subtract_int32('(int32)511', Character.GetAge)|0] ACC\nVanilla tooltip:\n[Character.GetAgeOnDeathOrBirthDate]"
+							tooltip = "CARTHAGINIAN_CHARACTER_BIRTH_TOOLTIP"
 						}
 					}
 					
@@ -5588,7 +5588,7 @@ types Base_GUI_Types
 							elide = right
 							fontsize_min = 12
 						}
-						tooltip = "[Character.GetAgeOnDeathOrBirthDate]"
+						tooltip = ""CARTHAGINIAN_CHARACTER_BIRTH_TOOLTIP""
 					}
 					widget = { size = { 0 1 } }
 					icon_and_text_dark = {
