@@ -1,8 +1,5 @@
 carthaginian_date_startup_effect = {
 	if = {
-		limit = {
-			is_ai = no
-		}
 		set_variable = {
 			name = acc_year
 			value = 511
@@ -14,7 +11,6 @@ carthaginian_date_startup_effect = {
 carthaginian_date_yearly_effect = {
 	if = {
 		limit = {
-			is_ai = no
 			NOT = { has_variable = acc_year }
 		}
 		set_variable = {

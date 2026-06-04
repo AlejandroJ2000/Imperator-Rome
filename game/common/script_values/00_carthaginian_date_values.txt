@@ -11,3 +11,21 @@ acc_year_display = {
 
 	round = yes
 }
+
+acc_character_birth_year = {
+	if = {
+		limit = {
+			exists = employer
+			employer = {
+				has_variable = acc_year
+			}
+		}
+		value = employer.var:acc_year
+	}
+	else = {
+		value = 511
+	}
+
+	subtract = age
+	round= yes
+}
